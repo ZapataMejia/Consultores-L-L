@@ -5,73 +5,72 @@ import ContactUs from '~/components/widgets/Contact.astro';
 import Features2 from '~/components/widgets/Features2.astro';
 
 const metadata = {
-  title: 'Contact',
+  title: 'Contacto',
 };
 ---
 
 <Layout metadata={metadata}>
-  <!-- HeroText Widget ******************* -->
+  <!-- HeroText Widget -->
+  <HeroText tagline="Contacto" title="¡Conéctate con nosotros!" />
 
-  <HeroText tagline="Contact" title="Let's Connect!" />
-
+  <!-- ContactUs Widget -->
   <ContactUs
     id="form"
-    title="Drop us a message today!"
-    subtitle="For quicker answers, explore our FAQs section. You may find the solution you're looking  for right there! If not, our support team is delighted to help you."
+    title="Envíanos un mensaje hoy mismo"
+    subtitle="Para respuestas rápidas, revisa nuestra sección de Preguntas Frecuentes. ¡Es posible que encuentres la solución que buscas! Si no, nuestro equipo de soporte estará encantado de ayudarte."
     inputs={[
       {
         type: 'text',
         name: 'name',
-        label: 'Name',
+        label: 'Nombre',
       },
       {
         type: 'email',
         name: 'email',
-        label: 'Email',
+        label: 'Correo electrónico',
       },
     ]}
     textarea={{
-      label: 'Message',
+      label: 'Mensaje',
     }}
     disclaimer={{
       label:
-        'By submitting this contact form, you acknowledge and agree to the collection of your personal information.',
+        'Al enviar este formulario, aceptas la recolección de tus datos personales.',
     }}
-    description="Our support team typically responds within 24 business hours."
+    description="Nuestro equipo de soporte normalmente responde en un plazo de 24 horas hábiles."
   />
 
-  <!-- Features2 Widget ************** -->
-
+  <!-- Features2 Widget -->
   <Features2
-    title="We are here to help!"
+    title="¡Estamos aquí para ayudarte!"
     items={[
       {
-        title: 'General support',
-        description: `Chat with us for inquiries related to account management, website navigation, payment issues, accessing purchased templates or general questions about the website's functionality.`,
+        title: 'Soporte general',
+        description: `Asistencia para preguntas sobre gestión de cuentas, navegación por el sitio, problemas de pago o consultas generales sobre el funcionamiento del sitio web.`,
       },
       {
-        title: 'Contact sales',
+        title: 'Contacto de ventas',
         description:
-          'Chat with us for questions about purchases, customization options, licensing for commercial use, inquiries about specific template, etc.',
+          'Preguntas sobre compras, opciones de personalización, licencias de uso comercial o consultas sobre servicios y productos específicos.',
       },
       {
-        title: 'Technical support',
+        title: 'Soporte técnico',
         description:
-          'Chat with us when facing issues like template installation, problems editing difficulties, compatibility issues with software or download errors, or other technical challenges related to using the templates.',
+          'Asistencia para problemas de instalación, edición, compatibilidad de software o errores de descarga, relacionados con el uso de nuestros servicios.',
       },
       {
-        title: 'Phone',
-        description: '+1 (234) 567-890',
+        title: 'Teléfono',
+        description: '+57 315 5547856',
         icon: 'tabler:headset',
       },
       {
-        title: 'Email',
-        description: 'contact@support.com',
+        title: 'Correo electrónico',
+        description: 'contacto@consultoreslyl.com',
         icon: 'tabler:mail',
       },
       {
-        title: 'Location',
-        description: '1234 Lorem Ipsum St, 12345, Miami, EEUU',
+        title: 'Ubicación',
+        description: 'Calle 123 #45-67, Bogotá, Colombia',
         icon: 'tabler:map-pin',
       },
     ]}
