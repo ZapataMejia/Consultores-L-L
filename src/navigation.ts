@@ -124,7 +124,7 @@ export const headerData = {
 
     {
   text: 'FAQs',
-  href: '#faqs',
+  href: '/#faqs',
 },
     // {
     //   text: 'Contactanos',
