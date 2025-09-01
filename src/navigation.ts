@@ -23,39 +23,36 @@ export const headerData = {
     //     },
     //   ],
     // },
-    // {
-    //   text: 'Pages',
-    //   links: [
-    //     {
-    //       text: 'Features (Anchor Link)',
-    //       href: getPermalink('/#features'),
-    //     },
-    //     {
-    //       text: 'Services',
-    //       href: getPermalink('/services'),
-    //     },
-    //     {
-    //       text: 'Pricing',
-    //       href: getPermalink('/pricing'),
-    //     },
-    //     {
-    //       text: 'About us',
-    //       href: getPermalink('/about'),
-    //     },
-    //     {
-    //       text: 'Contact',
-    //       href: getPermalink('/contact'),
-    //     },
-    //     {
-    //       text: 'Terms',
-    //       href: getPermalink('/terms'),
-    //     },
-    //     {
-    //       text: 'Privacy policy',
-    //       href: getPermalink('/privacy'),
-    //     },
-    //   ],
-    // },
+    {
+      text: 'Quiénes somos',
+      links: [
+        {
+          text: 'Características',
+          href: getPermalink('/#features'),
+        },
+        {
+          text: 'Nuestra experiencia',
+          href: getPermalink('/#Worked'),
+        },
+        {
+          text: 'Nuestro proceso',
+          href: getPermalink('/#process'),
+        },
+        {
+          text: 'Recursos clave',
+          href: getPermalink('/#services'),
+        },
+        {
+          text: 'Productos y servicios',
+          href: getPermalink('/#latest-products'),
+        },
+      ],
+    },
+      
+
+
+
+
     // {
     //   text: 'Landing',
     //   links: [
@@ -85,89 +82,112 @@ export const headerData = {
     //     },
     //   ],
     // },
+
+        {
+  text: 'Nuestros Productos',
+  href: '/blog',
+},
+
     {
-      text: 'Blog',
+      text: 'Servicios',
       links: [
         {
-          text: 'Blog List',
+          text: '',
           href: getBlogPermalink(),
         },
         {
-          text: 'Article',
-          href: getPermalink('get-started-website-with-astro-tailwind-css', 'post'),
+          text: 'Automatización y Control Industrial',
+          href: getPermalink('automatizacion-y-control-industrial'),
         },
         {
-          text: 'Article (with MDX)',
-          href: getPermalink('markdown-elements-demo-post', 'post'),
+          text: 'Ingeniería Mecánica',
+          href: getPermalink('ingenieria-mecanica'),
         },
         {
-          text: 'Category Page',
-          href: getPermalink('tutorials', 'category'),
+          text: 'Avalúos Urbanos y Rurales',
+          href: getPermalink('avaluos-urbanos-y-rurales'),
         },
         {
-          text: 'Tag Page',
-          href: getPermalink('astro', 'tag'),
+          text: 'Ingeniería Eléctrica',
+          href: getPermalink('ingenieria-electrica'),
+        },
+        {
+          text: 'Ingeniería Civil',
+          href: getPermalink('ingenieria-civil'),
+        },
+        {
+          text: 'Consultoría y Gestión de Proyectos',
+          href: getPermalink('consultoria-y-gestion-de-proyectos'),
         },
       ],
     },
+
+    {
+  text: 'FAQs',
+  href: '#faqs',
+},
     // {
     //   text: 'Contactanos',
     //   href: '#',
     // },
   ],
+  
 actions: [
   {
     text: 'Contáctanos',
     href: getPermalink('/contact'),
-    target: '_blank',
+    // target: '_blank',
   },
 ],
 };
 
+
+
 export const footerData = {
   links: [
     {
-      title: 'Product',
+      title: 'Nuestros Productos',
       links: [
-        { text: 'Features', href: '#' },
-        { text: 'Security', href: '#' },
-        { text: 'Team', href: '#' },
-        { text: 'Enterprise', href: '#' },
-        { text: 'Customer stories', href: '#' },
-        { text: 'Pricing', href: '#' },
-        { text: 'Resources', href: '#' },
+        { text: 'Caracteristicas', href: '/#features' },
+        { text: 'Nuestra Experiencia', href: '/#Worked' },
+        { text: 'Nuestro Proceso', href: '/#process' },
+        { text: 'Recursos Clave', href: '/#services' },
+        { text: 'Prodcutos y servicios', href: '/#faqs' },
+        { text: 'Testimonios', href: '/#stats' },
+        { text: 'Solicitar Cotizacion', href: '/#contact' },
       ],
     },
+    // {
+    //   title: 'Platform',
+    //   links: [
+    //     { text: 'Developer API', href: '#' },
+    //     { text: 'Partners', href: '#' },
+    //     { text: 'Atom', href: '#' },
+    //     { text: 'Electron', href: '#' },
+    //     { text: 'AstroWind Desktop', href: '#' },
+    //   ],
+    // },
+{
+  title: 'Servicios',
+  links: [
+    { text: 'Automatización y Control Industrial', href: '/automatizacion-y-control-industrial' },
+    { text: 'Ingeniería Mecánica', href: '/ingenieria-mecanica' },
+    { text: 'Avalúos Urbanos y Rurales', href: '/avaluos-urbanos-y-rurales' },
+    { text: 'Ingeniería Eléctrica', href: '/ingenieria-electrica' },
+    { text: 'Ingeniería Civil', href: '/ingenieria-civil' },
+    { text: 'Consultoría y Gestión de Proyectos', href: '/consultoria-y-gestion-de-proyectos' },
+  ],
+},
     {
-      title: 'Platform',
+      title: 'Empresa',
       links: [
-        { text: 'Developer API', href: '#' },
-        { text: 'Partners', href: '#' },
-        { text: 'Atom', href: '#' },
-        { text: 'Electron', href: '#' },
-        { text: 'AstroWind Desktop', href: '#' },
-      ],
-    },
-    {
-      title: 'Support',
-      links: [
-        { text: 'Docs', href: '#' },
-        { text: 'Community Forum', href: '#' },
-        { text: 'Professional Services', href: '#' },
-        { text: 'Skills', href: '#' },
-        { text: 'Status', href: '#' },
-      ],
-    },
-    {
-      title: 'Company',
-      links: [
-        { text: 'About', href: '#' },
-        { text: 'Blog', href: '#' },
-        { text: 'Careers', href: '#' },
-        { text: 'Press', href: '#' },
-        { text: 'Inclusion', href: '#' },
-        { text: 'Social Impact', href: '#' },
-        { text: 'Shop', href: '#' },
+        { text: 'Terminos y Condiciones', href: '/terms' },
+        { text: 'Politica de Privacidad', href: '/privacy' },
+        // { text: 'Careers', href: '#' },
+        // { text: 'Press', href: '#' },
+        // { text: 'Inclusion', href: '#' },
+        // { text: 'Social Impact', href: '#' },
+        // { text: 'Shop', href: '#' },
       ],
     },
   ],
@@ -175,13 +195,18 @@ export const footerData = {
     { text: 'Terms', href: getPermalink('/terms') },
     { text: 'Privacy Policy', href: getPermalink('/privacy') },
   ],
-  socialLinks: [
-    { ariaLabel: 'X', icon: 'tabler:brand-x', href: '#' },
-    { ariaLabel: 'Instagram', icon: 'tabler:brand-instagram', href: '#' },
-    { ariaLabel: 'Facebook', icon: 'tabler:brand-facebook', href: '#' },
+socialLinks: [
+  { ariaLabel: 'WhatsApp', icon: 'tabler:brand-whatsapp', href: 'https://api.whatsapp.com/send?text=TU_TEXTO_AQUI' },
+  { ariaLabel: 'X', icon: 'tabler:brand-x', href: '#' },
+  { ariaLabel: 'Instagram', icon: 'tabler:brand-instagram', href: '#' },
+  { ariaLabel: 'Facebook', icon: 'tabler:brand-facebook', href: '#' },
+  { ariaLabel: 'Github', icon: 'tabler:brand-github', href: 'https://github.com/ZapataMejia' },
     // { ariaLabel: 'RSS', icon: 'tabler:rss', href: getAsset('/rss.xml') },
-    { ariaLabel: 'Github', icon: 'tabler:brand-github', href: 'https://github.com/ZapataMejia' },
-  ],
+
+  // Nuevos
+  { ariaLabel: 'Email', icon: 'tabler:mail', href: 'mailto:?subject=Revisa%20esto&body=TU_TEXTO_AQUI' },
+],
+
   footNote: `
     Made by <a class="text-blue-600 underline dark:text-muted" href="https://github.com/ZapataMejia"> ZapataMejia</a> · All rights reserved.
   `,

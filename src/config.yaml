@@ -9,23 +9,24 @@ site:
 # Default SEO metadata
 metadata:
   title:
-    default: AstroWind
-    template: '%s — AstroWind'
-  description: "\U0001F680 Suitable for Startups, Small Business, Sass Websites, Professional Portfolios, Marketing Websites, Landing Pages & Blogs."
+    default: Consultores L&L Ingeniería y Servicios
+    template: '%s — Consultores L&L'
+  description: "✅ Soluciones integrales en ingeniería eléctrica, mecánica, civil, automatización y avalúos. Expertos en diseño, ejecución y gestión de proyectos con cumplimiento normativo."
   robots:
     index: true
     follow: true
   openGraph:
-    site_name: AstroWind
+    site_name: Consultores L&L Ingeniería y Servicios
     images:
       - url: '~/assets/images/default.png'
         width: 1200
         height: 628
     type: website
   twitter:
-    handle: '@arthelokyo'
-    site: '@arthelokyo'
+    handle: '@consultoreslyl'
+    site: '@consultoreslyl'
     cardType: summary_large_image
+
 
 i18n:
   language: en
