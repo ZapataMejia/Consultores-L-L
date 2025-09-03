@@ -3,7 +3,7 @@ publishDate: 2023-08-12T00:00:00Z
 author: Santiago Zapata
 title: Ingeniería Eléctrica | Diseño, Ejecución y Mantenimiento
 excerpt: Soluciones integrales en proyectos eléctricos de media y baja tensión, con cumplimiento de normativas RETIE y RETILAP.
-image: https://images.unsplash.com/photo-1516996087931-5ae405802f9f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80
+image: https://images.unsplash.com/photo-1645639417590-32e8778b2141?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
 category: Servicios
 tags:
   - ingeniería eléctrica
@@ -28,7 +28,7 @@ Nuestro enfoque combina experiencia técnica, innovación y compromiso con la **
 - **Optimización energética** para aumentar la eficiencia y reducir costos.  
 - Integración de **energías renovables** como parte de un futuro sostenible.  
 
-![Diseño de planos eléctricos](https://images.unsplash.com/photo-1581091215360-8d1390c7f3e8?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80)
+![Diseño de planos eléctricos](https://images.unsplash.com/photo-1570384958722-5f6256334194?q=80&w=1335&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)
 
 ---
 
@@ -37,7 +37,7 @@ Nuestro enfoque combina experiencia técnica, innovación y compromiso con la **
 Nos especializamos en el desarrollo de proyectos de **media y baja tensión** que van desde la planeación hasta la entrega final.  
 Realizamos estudios de carga, diagramas unifilares, planos eléctricos y simulaciones para garantizar la máxima eficiencia en cada instalación.  
 
-![Ingeniero revisando planos eléctricos](https://images.unsplash.com/photo-1581093588401-22c7a5b1bb2c?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80)
+![Ingeniero revisando planos eléctricos](https://images.unsplash.com/photo-1615774925655-a0e97fc85c14?q=80&w=1335&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)
 
 ---
 
@@ -51,7 +51,7 @@ Nuestros técnicos utilizan equipos de última generación para diagnosticar y c
 - Sustitución de componentes críticos.  
 - Evaluaciones periódicas de seguridad.  
 
-![Técnico realizando mantenimiento eléctrico](https://images.unsplash.com/photo-1591696331113-e6b8d5ef7491?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80)
+![Técnico realizando mantenimiento eléctrico](https://images.unsplash.com/photo-1544724569-5f546fd6f2b5?q=80&w=1287&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)
 
 ---
 
@@ -71,7 +71,7 @@ Desde la instalación de sistemas de **iluminación LED** hasta la implementaci�
 - **Residencial**: edificios, viviendas y urbanizaciones.  
 - **Infraestructura pública**: alumbrado, hospitales, colegios y más.  
 
-![Subestación eléctrica industrial](https://images.unsplash.com/photo-1601044227847-28f6c1fca6e0?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80)
+![Subestación eléctrica industrial](https://images.unsplash.com/photo-1670870741845-1a1d8b321cd8?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)
 
 ---
 
@@ -82,7 +82,7 @@ Desde la instalación de sistemas de **iluminación LED** hasta la implementaci�
 - Brindar acompañamiento en todas las fases del proyecto.  
 - Ofrecer soporte técnico y atención postventa permanente.  
 
-![Equipo de ingenieros en obra](https://images.unsplash.com/photo-1581092334601-b8b7a50d0d53?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80)
+![Equipo de ingenieros en obra](https://images.unsplash.com/photo-1633235036552-b4892c6c132c?q=80&w=1287&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)
 
 ---
 
@@ -90,7 +90,7 @@ Desde la instalación de sistemas de **iluminación LED** hasta la implementaci�
 
 En más de **10 años de experiencia**, hemos desarrollado proyectos para clientes en los sectores **industrial, comercial y residencial**, aportando soluciones que mejoran la seguridad, reducen costos y garantizan operaciones eficientes.  
 
-![Cliente satisfecho en obra eléctrica](https://images.unsplash.com/photo-1621091215360-8d1390c7f3e8?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80)
+![Cliente satisfecho en obra eléctrica](https://images.unsplash.com/photo-1542621334-a254cf47733d?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)
 
 ---
 

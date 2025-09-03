@@ -3,7 +3,7 @@ publishDate: 2023-08-12T00:00:00Z
 author: Santiago Zapata
 title: Consultoría y Gestión de Proyectos | Planificación y Ejecución Estratégica
 excerpt: Ofrecemos consultoría especializada y gestión integral de proyectos, asegurando planificación, control, seguimiento y cumplimiento de objetivos en tiempo y presupuesto.
-image: https://images.unsplash.com/photo-1581090700227-16e19b77ff45?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80
+image: https://images.unsplash.com/photo-1571573680328-f20cbb17e7ba?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
 category: Servicios
 tags:
   - consultoría
@@ -22,13 +22,11 @@ Nos enfocamos en maximizar recursos, minimizar riesgos y asegurar la calidad en 
 Realizamos análisis de viabilidad, definición de objetivos, cronogramas y asignación de recursos, asegurando que cada proyecto tenga una base sólida y estructurada.
 
 ![Equipo revisando planes estratégicos](
-https://images.unsplash.com/photo-1599423300746-b62533397364?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80)
+https://images.unsplash.com/photo-1573166826272-5acd0ef8f650?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D0)
 
 ![Presentación de estrategia corporativa](
-https://images.unsplash.com/photo-1600585154340-be6161a56a0c?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80)
+https://images.unsplash.com/photo-1631171992385-784ae02b1acb?q=80&w=2019&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)
 
-![Mapas y diagramas de planificación](
-https://images.unsplash.com/photo-1600585154350-3b6161a56a0b?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80)
 
 ---
 
@@ -36,13 +34,12 @@ https://images.unsplash.com/photo-1600585154350-3b6161a56a0b?ixlib=rb-4.0.3&auto
 Supervisamos cada etapa del proyecto, desde la ejecución hasta la entrega final, asegurando cumplimiento de tiempos, presupuestos y estándares de calidad.
 
 ![Ingenieros coordinando obra](
-https://images.unsplash.com/photo-1501004318641-b39e6451bec6?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80)
+https://images.unsplash.com/flagged/photo-1551135049-83f3419ef05c?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)
 
 ![Tablero de control de proyecto](
-https://images.unsplash.com/photo-1501004318641-c39e6451bec9?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80)
+https://images.unsplash.com/photo-1742112125630-dd2955dd6120?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)
 
-![Equipo de campo revisando avances](
-https://images.unsplash.com/photo-1501004318641-d39e6451bec7?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80)
+
 
 ---
 
@@ -50,13 +47,12 @@ https://images.unsplash.com/photo-1501004318641-d39e6451bec7?ixlib=rb-4.0.3&auto
 Analizamos procesos críticos y potenciales riesgos para mejorar eficiencia, reducir costos y garantizar la continuidad de las operaciones.
 
 ![Reunión de análisis de riesgos](
-https://images.unsplash.com/photo-1581092331617-9e51c2b3f593?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80)
+https://images.unsplash.com/photo-1676276375942-0f672b181f6e?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)
 
 ![Diagrama de flujo de procesos](
-https://images.unsplash.com/photo-1581092160611-7c1c657eb34b?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80)
+https://images.unsplash.com/photo-1729710877242-6305c22c18b8?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)
 
-![Análisis de métricas y KPIs](
-https://images.unsplash.com/photo-1581091215365-b01f8d2a8c92?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80)
+
 
 ---
 
@@ -68,10 +64,10 @@ https://images.unsplash.com/photo-1581091215365-b01f8d2a8c92?ixlib=rb-4.0.3&auto
 - Optimización de recursos y mitigación de riesgos.
 
 ![Equipo de consultores en oficina](
-https://images.unsplash.com/photo-1581090700227-16e19b77ff45?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80)
+https://images.unsplash.com/photo-1620413810267-57608544e5a4?q=80&w=2068&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)
 
 ![Revisión de proyectos en sala de reuniones](
-https://images.unsplash.com/photo-1581092160611-7c1c657eb34b?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80)
+https://images.unsplash.com/photo-1615914143778-1a1a6e50c5dd?q=80&w=2068&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)
 
 ---
 
@@ -83,5 +79,3 @@ En **Consultores L&L** estamos listos para planificar, ejecutar y supervisar cad
 📩 Escríbenos a: **contacto@consultoreslyl.com**  
 📞 Llámanos al: **+57 315 5547856**
 
-![Oficina y trabajo en equipo](
-https://images.unsplash.com/photo-1581092331617-9e51c2b3f593?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80)
