@@ -18,7 +18,7 @@ Garantizamos obras seguras, eficientes y con el cumplimiento de los estándares 
 
 ## Nuestros Servicios Principales
 
-### 🏗️ Construcción y adecuación de obras civiles
+###  Construcción y adecuación de obras civiles
 Desarrollamos proyectos de **edificación, adecuación y remodelación**, con control de calidad en cada etapa, asegurando resultados duraderos y eficientes.
 
 ![Construcción de edificio en obra](
@@ -32,7 +32,7 @@ https://images.unsplash.com/photo-1573386934157-21e35f04c2f4?q=80&w=2070&auto=fo
 
 ---
 
-### 📐 Interventoría de proyectos
+###  Interventoría de proyectos
 Supervisamos proyectos de construcción, verificando cumplimiento de **normativas, tiempos y presupuestos**, asegurando calidad y seguridad.
 
 ![Ingeniero revisando obra](
@@ -43,7 +43,7 @@ https://images.unsplash.com/photo-1650420790218-e910e7b2268a?q=80&w=2064&auto=fo
 
 ---
 
-### 💰 Optimización de costos y tiempos
+###  Optimización de costos y tiempos
 Aplicamos metodologías modernas para **gestión eficiente de recursos, reducción de desperdicios y optimización de tiempos de ejecución**, sin comprometer la calidad.
 
 ![Reunión de equipo revisando presupuesto](

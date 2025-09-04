@@ -19,7 +19,7 @@ Nuestro enfoque combina experiencia técnica, innovación y compromiso con la **
 
 ---
 
-## ⚡ Nuestros servicios incluyen:
+##  Nuestros servicios incluyen:
 
 - **Diseño y ejecución de proyectos eléctricos** personalizados.  
 - Cumplimiento estricto de normativas **RETIE y RETILAP**.  
@@ -32,7 +32,7 @@ Nuestro enfoque combina experiencia técnica, innovación y compromiso con la **
 
 ---
 
-## 🔌 Diseño y Ejecución de Proyectos
+##  Diseño y Ejecución de Proyectos
 
 Nos especializamos en el desarrollo de proyectos de **media y baja tensión** que van desde la planeación hasta la entrega final.  
 Realizamos estudios de carga, diagramas unifilares, planos eléctricos y simulaciones para garantizar la máxima eficiencia en cada instalación.  
@@ -41,7 +41,7 @@ Realizamos estudios de carga, diagramas unifilares, planos eléctricos y simulac
 
 ---
 
-## 🛠️ Mantenimiento Eléctrico
+##  Mantenimiento Eléctrico
 
 Contamos con planes de **mantenimiento preventivo y correctivo** que aseguran la continuidad operativa de las instalaciones.  
 Nuestros técnicos utilizan equipos de última generación para diagnosticar y corregir fallas antes de que se conviertan en problemas mayores.  
@@ -55,7 +55,7 @@ Nuestros técnicos utilizan equipos de última generación para diagnosticar y c
 
 ---
 
-## 🌱 Eficiencia Energética y Sostenibilidad
+##  Eficiencia Energética y Sostenibilidad
 
 Ofrecemos soluciones orientadas a la reducción del consumo eléctrico y la integración de **tecnologías sostenibles**.  
 Desde la instalación de sistemas de **iluminación LED** hasta la implementación de **paneles solares**, ayudamos a nuestros clientes a ser más competitivos y responsables con el medio ambiente.  
@@ -64,7 +64,7 @@ Desde la instalación de sistemas de **iluminación LED** hasta la implementaci�
 
 ---
 
-## 🏗️ Sectores en los que trabajamos
+##  Sectores en los que trabajamos
 
 - **Industrial**: subestaciones, sistemas de respaldo y distribución de alta demanda.  
 - **Comercial**: centros comerciales, oficinas y almacenes.  
@@ -75,7 +75,7 @@ Desde la instalación de sistemas de **iluminación LED** hasta la implementaci�
 
 ---
 
-## 👷 Nuestro compromiso
+##  Nuestro compromiso
 
 - Cumplir con los estándares nacionales e internacionales.  
 - Garantizar la **seguridad de las personas** y la **confiabilidad de los sistemas**.  
@@ -86,7 +86,7 @@ Desde la instalación de sistemas de **iluminación LED** hasta la implementaci�
 
 ---
 
-## 📈 Casos de éxito
+##  Casos de éxito
 
 En más de **10 años de experiencia**, hemos desarrollado proyectos para clientes en los sectores **industrial, comercial y residencial**, aportando soluciones que mejoran la seguridad, reducen costos y garantizan operaciones eficientes.  
 
@@ -94,7 +94,7 @@ En más de **10 años de experiencia**, hemos desarrollado proyectos para client
 
 ---
 
-## 📩 Contáctanos
+##  Contáctanos
 
 Si buscas un aliado en **ingeniería eléctrica**, en **Consultores L&L** estamos listos para acompañarte desde la planeación hasta la ejecución de tu proyecto.  
 

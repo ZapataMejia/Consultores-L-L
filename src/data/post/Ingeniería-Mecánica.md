@@ -20,7 +20,7 @@ Nuestro enfoque combina experiencia, innovación y cumplimiento de normativas, a
 
 ## Nuestros Servicios Principales
 
-### ⚙️ Montajes industriales y de equipos
+###  Montajes industriales y de equipos
 Realizamos montajes mecánicos de **máquinas, líneas de producción y equipos especializados**.  
 Garantizamos precisión en la instalación, pruebas de funcionamiento y puesta en marcha segura.
 
@@ -30,7 +30,7 @@ Garantizamos precisión en la instalación, pruebas de funcionamiento y puesta e
 
 ---
 
-### 🏗️ Diseño y fabricación de estructuras metálicas
+###  Diseño y fabricación de estructuras metálicas
 Diseñamos y fabricamos **estructuras metálicas personalizadas** para proyectos civiles e industriales.  
 Nos enfocamos en resistencia, durabilidad y cumplimiento de estándares de calidad.
 
@@ -40,7 +40,7 @@ Nos enfocamos en resistencia, durabilidad y cumplimiento de estándares de calid
 
 ---
 
-### 🛠️ Mantenimiento preventivo y correctivo
+###  Mantenimiento preventivo y correctivo
 Ofrecemos programas de mantenimiento para **equipos y sistemas mecánicos**, asegurando su óptimo desempeño y reduciendo paradas inesperadas.  
 Incluye inspecciones, lubricación, reemplazo de piezas y reparaciones especializadas.
 

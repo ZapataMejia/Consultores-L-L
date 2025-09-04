@@ -152,7 +152,7 @@ export const footerData = {
         { text: 'Nuestra Experiencia', href: '/#Worked' },
         { text: 'Nuestro Proceso', href: '/#process' },
         { text: 'Recursos Clave', href: '/#services' },
-        { text: 'Prodcutos y servicios', href: '/#faqs' },
+        { text: 'Productos y servicios', href: '/#faqs' },
         { text: 'Testimonios', href: '/#stats' },
         { text: 'Solicitar Cotizacion', href: '/#contact' },
       ],

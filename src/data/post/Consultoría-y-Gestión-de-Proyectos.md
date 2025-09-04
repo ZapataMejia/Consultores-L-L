@@ -18,7 +18,7 @@ Nos enfocamos en maximizar recursos, minimizar riesgos y asegurar la calidad en 
 
 ## Nuestros Servicios Principales
 
-### 📋 Planificación y Asesoría Estratégica
+###  Planificación y Asesoría Estratégica
 Realizamos análisis de viabilidad, definición de objetivos, cronogramas y asignación de recursos, asegurando que cada proyecto tenga una base sólida y estructurada.
 
 ![Equipo revisando planes estratégicos](
@@ -30,7 +30,7 @@ https://images.unsplash.com/photo-1631171992385-784ae02b1acb?q=80&w=2019&auto=fo
 
 ---
 
-### ⚙️ Gestión y Ejecución de Proyectos
+###  Gestión y Ejecución de Proyectos
 Supervisamos cada etapa del proyecto, desde la ejecución hasta la entrega final, asegurando cumplimiento de tiempos, presupuestos y estándares de calidad.
 
 ![Ingenieros coordinando obra](
@@ -43,7 +43,7 @@ https://images.unsplash.com/photo-1742112125630-dd2955dd6120?q=80&w=2070&auto=fo
 
 ---
 
-### 💡 Optimización de Procesos y Riesgos
+###  Optimización de Procesos y Riesgos
 Analizamos procesos críticos y potenciales riesgos para mejorar eficiencia, reducir costos y garantizar la continuidad de las operaciones.
 
 ![Reunión de análisis de riesgos](
