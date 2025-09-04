@@ -198,7 +198,7 @@ export const footerData = {
 socialLinks: [
   { ariaLabel: 'WhatsApp', icon: 'tabler:brand-whatsapp', href: 'https://api.whatsapp.com/send?text=TU_TEXTO_AQUI' },
   { ariaLabel: 'X', icon: 'tabler:brand-x', href: '#' },
-  { ariaLabel: 'Instagram', icon: 'tabler:brand-instagram', href: '#' },
+  { ariaLabel: 'Instagram', icon: 'tabler:brand-instagram', href: 'https://www.instagram.com/consultoreslylingenieria?igsh=bXk0dnduNmxhd20x' },
   { ariaLabel: 'Facebook', icon: 'tabler:brand-facebook', href: '#' },
   { ariaLabel: 'Github', icon: 'tabler:brand-github', href: 'https://github.com/ZapataMejia' },
     // { ariaLabel: 'RSS', icon: 'tabler:rss', href: getAsset('/rss.xml') },
