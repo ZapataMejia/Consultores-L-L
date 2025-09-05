@@ -148,11 +148,11 @@ export const footerData = {
     {
       title: 'Nuestros Productos',
       links: [
-        { text: 'Caracteristicas', href: '/#features' },
+        // { text: 'Caracteristicas', href: '/#features' },
         { text: 'Nuestra Experiencia', href: '/#Worked' },
         { text: 'Nuestro Proceso', href: '/#process' },
-        { text: 'Recursos Clave', href: '/#services' },
-        { text: 'Productos y servicios', href: '/#faqs' },
+        // { text: 'Recursos Clave', href: '/#services' },
+        // { text: 'Productos y servicios', href: '/#faqs' },
         { text: 'Testimonios', href: '/#stats' },
         { text: 'Solicitar Cotizacion', href: '/#contact' },
       ],
