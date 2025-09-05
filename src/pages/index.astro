@@ -12,31 +12,36 @@ import FAQs from '~/components/widgets/FAQs.astro';
 import Stats from '~/components/widgets/Stats.astro';
 import CallToAction from '~/components/widgets/CallToAction.astro';
 
+// Importamos imágenes locales
+import heroImg from '/src/assets/images/img1.jpeg';
+import contentImg1 from '/src/assets/images/img2.jpeg';
+import contentImg2 from '/src/assets/images/img3.jpeg';
+import contentImg3 from '/src/assets/images/img4.jpeg';
+import stepsImg from '/src/assets/images/img5.jpeg';
+
 const metadata = {
   title: 'Consultores L&L Ingeniería y Servicios — Ingeniería eléctrica, mecánica, civil, avalúos y topografía',
   ignoreTitleTemplate: true,
 };
-
 ---
 
 <Layout metadata={metadata}>
   <!-- Hero Widget ******************* -->
 
   <Hero
-actions={[
-  {
-    variant: 'primary',
-    text: 'Conózcanos',
-    href: '#features',   // ahora apunta al ancla interna
-    icon: 'tabler:users',
-  },
-  {
-    text: 'Nuestros servicios',
-    href: 'blog',   // igual que antes
-  },
-]}
-
-    image={{ src: '~/assets/images/image.png', alt: 'AstroWind Hero Image' }}
+    actions={[
+      {
+        variant: 'primary',
+        text: 'Conózcanos',
+        href: '#features',
+        icon: 'tabler:users',
+      },
+      {
+        text: 'Nuestros servicios',
+        href: 'blog',
+      },
+    ]}
+    image={{ src: heroImg, alt: 'Consultores L&L Hero' }}
   >
     <Fragment slot="title">
       CONSULTORES  <br> L&L INGENIERÍA Y SERVICIOS <span class="hidden xl:inline"></span>
@@ -56,90 +61,38 @@ actions={[
 
   <Note title="Filosofía:" description="Experiencia, Innovación y Confianza" />
 
-  <!-- Features Widget *************** -->
-
-<Features
-  id="features"
-  tagline="Características — Nuestros diferenciales"
-  title="¿Qué obtiene con Consultores L&L Ingeniería y Servicios?"
-  subtitle="Más de 20 años de experiencia en ingeniería eléctrica, mecánica y civil, avalúos urbanos y rurales y topografía, ofreciendo soluciones integrales, cumplimiento técnico y respaldo a nivel nacional."
-  items={[
-    {
-      title: 'Experiencia comprobada',
-      description:
-        'Dos décadas ejecutando proyectos de ingeniería para clientes del sector público y privado en todo el país.',
-      icon: 'tabler:building',
-    },
-    {
-      title: 'Equipo multidisciplinario',
-      description:
-        'Ingenieros eléctricos, mecánicos y civiles que trabajan de forma integrada para brindar soluciones completas.',
-      icon: 'tabler:users',
-    },
-    {
-      title: 'Buenas prácticas y normativas',
-      description:
-        'Aplicamos estándares nacionales e internacionales que garantizan seguridad, eficiencia y cumplimiento.',
-      icon: 'tabler:list-check',
-    },
-    {
-      title: 'Optimización de recursos',
-      description:
-        'Diseños orientados a reducir costos y tiempos de obra, con planeación técnica precisa y confiable.',
-      icon: 'tabler:rocket',
-    },
-    {
-      title: 'Documentación y soporte',
-      description:
-        'Planos, memorias técnicas, presupuestos y acompañamiento post-entrega para asegurar la satisfacción del cliente.',
-      icon: 'tabler:files',
-    },
-    {
-      title: 'Innovación y confianza',
-      description:
-        'Implementamos nuevas metodologías y trabajamos de la mano con cada cliente para adaptar las soluciones a sus necesidades.',
-      icon: 'tabler:bulb',
-    },
-  ]}
-/>
-
-
   <!-- Content Widget **************** -->
 
-<Content
-  id="Worked"
-  isReversed
-  tagline="Nuestra base de trabajo"
-  title="La experiencia y la técnica que respaldan cada proyecto"
-  items={[
-    {
-      title: 'Más de 20 años de trayectoria',
-      description:
-        'Experiencia en ingeniería eléctrica, mecánica y civil, avalúos y topografía, con cobertura a nivel nacional.',
-    },
-    {
-      title: 'Equipo profesional certificado',
-      description:
-        'Ingenieros especializados que trabajan bajo normativas nacionales e internacionales, garantizando seguridad y calidad.',
-    },
-    {
-      title: 'Compromiso con el cumplimiento',
-      description:
-        'Proyectos desarrollados con planeación técnica, eficiencia en tiempos y transparencia en costos.',
-    },
+  <Content
+    id="Worked"
+    isReversed
+    tagline="Nuestra base de trabajo"
+    title="La experiencia y la técnica que respaldan cada proyecto"
+    items={[
+      {
+        title: 'Más de 20 años de trayectoria',
+        description:
+          'Experiencia en ingeniería eléctrica, mecánica y civil, avalúos y topografía, con cobertura a nivel nacional.',
+      },
+      {
+        title: 'Equipo profesional certificado',
+        description:
+          'Ingenieros especializados que trabajan bajo normativas nacionales e internacionales, garantizando seguridad y calidad.',
+      },
+      {
+        title: 'Compromiso con el cumplimiento',
+        description:
+          'Proyectos desarrollados con planeación técnica, eficiencia en tiempos y transparencia en costos.',
+      },
     ]}
-    image={{
-      src: 'https://st.depositphotos.com/29395340/52305/i/450/depositphotos_523056010-stock-photo-two-asian-engineers-working-site.jpg',
-      alt: 'Colorful Image',
-    }}
+    image={{ src: contentImg1, alt: 'Nuestra base de trabajo' }}
   >
-<Fragment slot="content">
-  <h3 class="text-2xl font-bold tracking-tight dark:text-white sm:text-3xl mb-2">
-    Construyendo sobre bases sólidas
-  </h3>
-  Experiencia, cumplimiento y buenas prácticas que respaldan cada proyecto
-</Fragment>
-
+    <Fragment slot="content">
+      <h3 class="text-2xl font-bold tracking-tight dark:text-white sm:text-3xl mb-2">
+        Construyendo sobre bases sólidas
+      </h3>
+      Experiencia, cumplimiento y buenas prácticas que respaldan cada proyecto
+    </Fragment>
 
     <Fragment slot="bg">
       <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
@@ -148,273 +101,157 @@ actions={[
 
   <!-- Content Widget **************** -->
 
-<Content
-  isAfterContent
-  items={[
-    {
-      title: 'Soluciones a la medida',
-      description: `Cada proyecto se desarrolla conforme a las necesidades específicas del cliente, garantizando funcionalidad y eficiencia.`,
-    },
-    {
-      title: 'Cobertura nacional',
-      description:
-        'Atendemos proyectos en diferentes regiones del país, asegurando presencia y acompañamiento donde se requiera.',
-    },
-    {
-      title: 'Cumplimiento normativo',
-      description:
-        'Aplicamos las normas vigentes en ingeniería eléctrica, mecánica, civil y topografía, asegurando seguridad y respaldo legal.',
-    },
-    {
-      title: 'Soporte y acompañamiento',
-      description:
-        'Brindamos asesoría constante antes, durante y después del proyecto, con un equipo siempre disponible para resolver inquietudes.',
-    },
-  ]}
-image={{ src: 'https://images.unsplash.com/photo-1614683361837-963af4039d58?q=80&w=1237&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D', alt: 'Blueprint Image', }}
->
-  <Fragment slot="content">
-    Nos aseguramos de que cada proyecto represente calidad, confianza y cumplimiento.
-  </Fragment>
+  <Content
+    isAfterContent
+    items={[
+      {
+        title: 'Soluciones a la medida',
+        description: `Cada proyecto se desarrolla conforme a las necesidades específicas del cliente, garantizando funcionalidad y eficiencia.`,
+      },
+      {
+        title: 'Cobertura nacional',
+        description:
+          'Atendemos proyectos en diferentes regiones del país, asegurando presencia y acompañamiento donde se requiera.',
+      },
+      {
+        title: 'Cumplimiento normativo',
+        description:
+          'Aplicamos las normas vigentes en ingeniería eléctrica, mecánica, civil y topografía, asegurando seguridad y respaldo legal.',
+      },
+      {
+        title: 'Soporte y acompañamiento',
+        description:
+          'Brindamos asesoría constante antes, durante y después del proyecto, con un equipo siempre disponible para resolver inquietudes.',
+      },
+    ]}
+    image={{ src: contentImg2, alt: 'Blueprint Image' }}
+  >
+    <Fragment slot="content">
+      Nos aseguramos de que cada proyecto represente calidad, confianza y cumplimiento.
+    </Fragment>
 
-  <Fragment slot="bg">
-    <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
-  </Fragment>
-</Content>
-
+    <Fragment slot="bg">
+      <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
+    </Fragment>
+  </Content>
 
   <!-- Content Widget **************** -->
 
-<Content
-  isReversed
-  isAfterContent
-  items={[
-    {
-      title: 'Relación de largo plazo',
-      description:
-        'Más que un servicio puntual, buscamos establecer alianzas duraderas con nuestros clientes, acompañando sus proyectos en el tiempo.',
-    },
-    {
-      title: 'Mejora continua',
-      description:
-        'Aplicamos procesos de innovación y actualización constante en nuestros métodos de trabajo y tecnologías utilizadas.',
-    },
-    {
-      title: 'Optimización de recursos',
-      description:
-        'Diseñamos soluciones eficientes que reducen costos y tiempos de ejecución, garantizando rentabilidad para su inversión.',
-    },
-    {
-      title: 'Respaldo garantizado',
-      description: `Con más de 20 años de experiencia, ofrecemos seguridad, cumplimiento y confianza en cada proyecto ejecutado.`,
-    },
-  ]}
-image={{ src: 'https://images.unsplash.com/photo-1721244654392-9c912a6eb236?q=80&w=2029&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D', alt: 'Astronauts Image', }}
->
-  <Fragment slot="content">
-    Diseñado para generar confianza, crecimiento y resultados comprobables.
-  </Fragment>
+  <Content
+    isReversed
+    isAfterContent
+    items={[
+      {
+        title: 'Relación de largo plazo',
+        description:
+          'Más que un servicio puntual, buscamos establecer alianzas duraderas con nuestros clientes, acompañando sus proyectos en el tiempo.',
+      },
+      {
+        title: 'Mejora continua',
+        description:
+          'Aplicamos procesos de innovación y actualización constante en nuestros métodos de trabajo y tecnologías utilizadas.',
+      },
+      {
+        title: 'Optimización de recursos',
+        description:
+          'Diseñamos soluciones eficientes que reducen costos y tiempos de ejecución, garantizando rentabilidad para su inversión.',
+      },
+      {
+        title: 'Respaldo garantizado',
+        description: `Con más de 20 años de experiencia, ofrecemos seguridad, cumplimiento y confianza en cada proyecto ejecutado.`,
+      },
+    ]}
+    image={{ src: contentImg3, alt: 'Astronauts Image' }}
+  >
+    <Fragment slot="content">
+      Diseñado para generar confianza, crecimiento y resultados comprobables.
+    </Fragment>
 
-  <Fragment slot="bg">
-    <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
-  </Fragment>
-</Content>
-
+    <Fragment slot="bg">
+      <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
+    </Fragment>
+  </Content>
 
   <!-- Steps Widget ****************** -->
 
-<Steps
-  id="process"
-  title="Así llevamos tus proyectos de la idea a la realidad con L&L Ingeniería y Servicios"
-  items={[
-    {
-      title: 'Paso 1: <span class="font-medium">Diagnóstico</span>',
-      description:
-        'Analizamos las necesidades específicas de tu proyecto y realizamos una evaluación técnica para definir el alcance y la mejor solución.',
-      icon: 'tabler:search',
-    },
-    {
-      title: 'Paso 2: <span class="font-medium">Planeación</span>',
-      description:
-        'Diseñamos una propuesta integral con cronogramas, recursos y costos, garantizando eficiencia y cumplimiento en cada fase.',
-      icon: 'tabler:calendar',
-    },
-    {
-      title: 'Paso 3: <span class="font-medium">Ejecución</span>',
-      description:
-        'Nuestro equipo multidisciplinario desarrolla el proyecto aplicando estándares de calidad, seguridad y normatividad vigente.',
-      icon: 'tabler:tools',
-    },
-    {
-      title: 'Paso 4: <span class="font-medium">Entrega y seguimiento</span>',
-      description:
-        'Hacemos entrega formal de los resultados y brindamos acompañamiento posterior para garantizar la satisfacción y continuidad del servicio.',
-      icon: 'tabler:check',
-    },
-  ]}
-image={{ src: 'https://images.unsplash.com/photo-1581092583537-20d51b4b4f1b?q=80&w=987&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D', alt: 'Steps image', }}
-/>
-
-
-  <!-- Features2 Widget ************** -->
-
-<Features2
-  id="services"
-  title="Recursos y servicios clave"
-  subtitle="Elementos y entregables que utilizamos para asegurar calidad, control y cumplimiento en cada proyecto"
-  tagline="Servicios"
-  items={[
-    {
-      title: 'Estudios preliminares',
-      description: 'Levantamientos iniciales, análisis del sitio y definición de alcance técnico para establecer las bases del proyecto.',
-      icon: 'flat-color-icons:template',
-    },
-    {
-      title: 'Proyectos destacados',
-      description:
-        'Presentación de obras emblemáticas con resultados, alcances y lecciones aprendidas que muestran nuestra capacidad técnica.',
-      icon: 'flat-color-icons:gallery',
-    },
-    {
-      title: 'Alcance de servicios',
-      description:
-        'Catálogo claro de servicios: diseño eléctrico, mecánico y civil, avalúos urbanos y rurales, topografía y consultoría especializada.',
-      icon: 'flat-color-icons:approval',
-    },
-    {
-      title: 'Documentación técnica',
-      description:
-        'Planos editables y PDF, memorias técnicas, tablas de cargas y presupuestos detallados listos para entrega y revisión.',
-      icon: 'flat-color-icons:document',
-    },
-    {
-      title: 'Solicitud de presupuesto',
-      description:
-        'Canal directo para solicitar cotización o agendar visita técnica; respuesta rápida y condiciones transparentes.',
-      icon: 'flat-color-icons:advertising',
-    },
-    {
-      title: 'Presupuestos y condiciones',
-      description:
-        'Presupuestos desglosados y condiciones comerciales claras (anticipo, entregas y garantías) adaptados a cada proyecto.',
-      icon: 'flat-color-icons:currency-exchange',
-    },
-    {
-      title: 'Clientes y casos',
-      description:
-        'Testimonios y estudios de caso que respaldan la calidad y el cumplimiento de nuestros trabajos en el sector público y privado.',
-      icon: 'flat-color-icons:voice-presentation',
-    },
-    {
-      title: 'Contáctenos',
-      description:
-        'Teléfono, correo y formulario de contacto para consultas técnicas y comerciales; atención ágil y profesional.',
-      icon: 'flat-color-icons:business-contact',
-    },
-    {
-      title: 'Información institucional',
-      description:
-        'Datos legales, direcciones (Pereira y Bogotá), políticas y certificados técnicos disponibles para su verificación.',
-      icon: 'flat-color-icons:database',
-    },
-  ]}
->
-  <Fragment slot="bg">
-    <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
-  </Fragment>
-</Features2>
-
+  <Steps
+    id="process"
+    title="Así llevamos tus proyectos de la idea a la realidad con L&L Ingeniería y Servicios"
+    items={[
+      {
+        title: 'Paso 1: <span class="font-medium">Diagnóstico</span>',
+        description:
+          'Analizamos las necesidades específicas de tu proyecto y realizamos una evaluación técnica para definir el alcance y la mejor solución.',
+        icon: 'tabler:search',
+      },
+      {
+        title: 'Paso 2: <span class="font-medium">Planeación</span>',
+        description:
+          'Diseñamos una propuesta integral con cronogramas, recursos y costos, garantizando eficiencia y cumplimiento en cada fase.',
+        icon: 'tabler:calendar',
+      },
+      {
+        title: 'Paso 3: <span class="font-medium">Ejecución</span>',
+        description:
+          'Nuestro equipo multidisciplinario desarrolla el proyecto aplicando estándares de calidad, seguridad y normatividad vigente.',
+        icon: 'tabler:tools',
+      },
+      {
+        title: 'Paso 4: <span class="font-medium">Entrega y seguimiento</span>',
+        description:
+          'Hacemos entrega formal de los resultados y brindamos acompañamiento posterior para garantizar la satisfacción y continuidad del servicio.',
+        icon: 'tabler:check',
+      },
+    ]}
+    image={{ src: stepsImg, alt: 'Steps image' }}
+  />
 
   <!-- HighlightedPosts Widget ******* -->
 
-<BlogLatestPosts
-  id="latest-products"
-  title="Explora nuestros productos y servicios"
-  information={`Conozca el portafolio de Consultores L&L Ingeniería y Servicios. 
+  <BlogLatestPosts
+    id="latest-products"
+    title="Explora nuestros productos y servicios"
+    information={`Conozca el portafolio de Consultores L&L Ingeniería y Servicios. 
   Aquí encontrará diferentes categorías de proyectos y soluciones en ingeniería eléctrica, mecánica y civil, 
   avalúos urbanos y rurales, así como servicios de topografía. 
   Explore cada sección para descubrir cómo podemos apoyar sus necesidades con experiencia, 
   cumplimiento técnico y respaldo a nivel nacional.`}
-/>
+  />
 
+  {/* Stats Widget ****************** */}
 
-  <!-- FAQs Widget ******************* -->
+  <Stats
+    id="stats"
+    stats={[
+      { title: 'Proyectos ejecutados', amount: '350+' },
+      { title: 'Clientes satisfechos', amount: '180+' },
+      { title: 'Años de experiencia', amount: '15+' },
+      { title: 'Cobertura nacional', amount: '20+' },
+    ]}
+  />
 
-<FAQs
-  id="faqs"
-  title="Preguntas Frecuentes"
-  subtitle="Encuentra aquí las respuestas a las dudas más comunes sobre nuestros servicios, procesos y entregables."
-  tagline="FAQs"
-  classes={{ container: 'max-w-6xl' }}
-  items={[
-    {
-      title: '¿Qué servicios ofrecen?',
-      description:
-        'Realizamos proyectos eléctricos, mecánicos y civiles; topografía; avalúos urbanos y rurales; interventoría y consultoría técnica. Cada servicio se adapta a las necesidades del cliente.',
-    },
-    {
-      title: '¿En qué ciudades tienen cobertura?',
-      description:
-        'Contamos con sedes en Pereira y Bogotá, y ofrecemos cobertura en gran parte del territorio nacional según el alcance del proyecto.',
-    },
-    {
-      title: '¿Qué tipo de entregables recibo?',
-      description:
-        'Planos en formatos editables y PDF, memorias técnicas, presupuestos detallados, tablas de cargas y documentos listos para gestión y aprobación.',
-    },
-    {
-      title: '¿Cómo solicito una cotización?',
-      description:
-        'Puedes contactarnos a través del formulario web, correo electrónico o teléfono. Nuestro equipo revisa tu requerimiento y entrega una propuesta técnica y económica en pocos días.',
-    },
-    {
-      title: '¿Trabajan con entidades públicas y privadas?',
-      description:
-        'Sí. Tenemos experiencia tanto en licitaciones y contratos estatales como en proyectos para empresas privadas y clientes individuales.',
-    },
-    {
-      title: '¿Cuentan con certificaciones o respaldos técnicos?',
-      description:
-        'Nuestro equipo está conformado por profesionales certificados, y cada proyecto cumple las normas RETIE, NTC y estándares técnicos vigentes.',
-    },
-  ]}
-/>
+  {/* CallToAction Widget *********** */}
 
-{/* Stats Widget ****************** */}
+  <CallToAction
+    id="contact"
+    actions={[
+      {
+        variant: 'primary',
+        text: 'Solicitar cotización',
+        href: '/contact',
+        target: '_self',
+        icon: 'tabler:send',
+      },
+    ]}
+  >
+    <Fragment slot="title">
+      Consultores&nbsp;L&amp;L <br class="block sm:hidden" />
+      <span class="sm:whitespace-nowrap">Ingeniería y Servicios</span>
+    </Fragment>
 
-<Stats
-  id="stats"
-  stats={[
-    { title: 'Proyectos ejecutados', amount: '350+' },
-    { title: 'Clientes satisfechos', amount: '180+' },
-    { title: 'Años de experiencia', amount: '15+' },
-    { title: 'Cobertura nacional', amount: '20+' },
-  ]}
-/>
-
-{/* CallToAction Widget *********** */}
-
-<CallToAction
-  id="contact"
-  actions={[
-    {
-      variant: 'primary',
-      text: 'Solicitar cotización',
-      href: '/contact',
-      target: '_self',
-      icon: 'tabler:send',
-    },
-  ]}
->
-  <Fragment slot="title">
-    Consultores&nbsp;L&amp;L <br class="block sm:hidden" />
-    <span class="sm:whitespace-nowrap">Ingeniería y Servicios</span>
-  </Fragment>
-
-  <Fragment slot="subtitle">
-    Confianza, cumplimiento y respaldo técnico en cada proyecto.<br class="hidden md:inline" />
-    Contáctanos y recibe asesoría personalizada.
-  </Fragment>
-</CallToAction>
-
+    <Fragment slot="subtitle">
+      Confianza, cumplimiento y respaldo técnico en cada proyecto.<br class="hidden md:inline" />
+      Contáctanos y recibe asesoría personalizada.
+    </Fragment>
+  </CallToAction>
 </Layout>
