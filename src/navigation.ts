@@ -26,10 +26,10 @@ export const headerData = {
     {
       text: 'Quiénes somos',
       links: [
-        {
-          text: 'Características',
-          href: getPermalink('/#features'),
-        },
+        // {
+        //   text: 'Características',
+        //   href: getPermalink('/#features'),
+        // },
         {
           text: 'Nuestra experiencia',
           href: getPermalink('/#Worked'),
@@ -38,12 +38,12 @@ export const headerData = {
           text: 'Nuestro proceso',
           href: getPermalink('/#process'),
         },
+        // {
+        //   text: 'Recursos clave',
+        //   href: getPermalink('/#services'),
+        // },
         {
-          text: 'Recursos clave',
-          href: getPermalink('/#services'),
-        },
-        {
-          text: 'Productos y servicios',
+          text: 'Todos nuestros servicios',
           href: getPermalink('/#latest-products'),
         },
       ],
@@ -84,7 +84,7 @@ export const headerData = {
     // },
 
         {
-  text: 'Nuestros Productos',
+  text: 'Todos nuestros servicios',
   href: '/blog',
 },
 
@@ -122,10 +122,10 @@ export const headerData = {
       ],
     },
 
-    {
-  text: 'FAQs',
-  href: '/#faqs',
-},
+//     {
+//   text: 'FAQs',
+//   href: '/#faqs',
+// },
     // {
     //   text: 'Contactanos',
     //   href: '#',
@@ -146,7 +146,7 @@ actions: [
 export const footerData = {
   links: [
     {
-      title: 'Nuestros Productos',
+      title: 'Nosotros',
       links: [
         // { text: 'Caracteristicas', href: '/#features' },
         { text: 'Nuestra Experiencia', href: '/#Worked' },
@@ -183,6 +183,10 @@ export const footerData = {
       links: [
         { text: 'Terminos y Condiciones', href: '/terms' },
         { text: 'Politica de Privacidad', href: '/privacy' },
+        { text: 'Perfil Corporativo', href: '/company' },
+        { text: 'Historial de Proyectos', href: '/experience' },
+
+
         // { text: 'Careers', href: '#' },
         // { text: 'Press', href: '#' },
         // { text: 'Inclusion', href: '#' },
