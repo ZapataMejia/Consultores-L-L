@@ -89,7 +89,7 @@ export const headerData = {
 },
 
     {
-      text: 'Servicios',
+      text: 'Servicios Especializados',
       links: [
         {
           text: '',
